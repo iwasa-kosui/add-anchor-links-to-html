@@ -18,10 +18,10 @@ Thus, I add them to html with this script.
 
 ## Getting started
 
-Add `<a href=#hello>...</a>` to html elements with `id=hello`.
+Here is example html file to be input.
 
 ```sh
-$ go get -u github.com/iwasa-kosui/add-id-links-to-html
+$ go get -u github.com/iwasa-kosui/add-anchor-links-to-html
 $ cat example.html
 <html><head>
     
@@ -32,8 +32,11 @@ $ cat example.html
     <h3 id="bbb">bbb</h3>
 </div>
 </body></html>
+```
 
-# outputs the result
+### outputs the result
+
+```sh
 $ ./add-id-links-to-html -i example.html
 <html><head>
     
@@ -44,8 +47,11 @@ $ ./add-id-links-to-html -i example.html
     <a href="#bbb"><h3 id="bbb">bbb</h3></a>
 </div>
 </body></html>
+```
 
-# saves to the file
+### saves to the file
+
+```
 $ ./add-id-links-to-html -i example.html -o output.html
 ```
 
