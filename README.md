@@ -2,6 +2,20 @@
 
 ![descrpiton](./description.png)
 
+## Motivation
+
+When I convert .epub to .html with pandoc, I get a very long html document.
+After reading some sections in it, I want to suspend reading and remember which chapter to start reading tomorrow.
+However, the exported html doc does not have anchor links...
+Thus, I add them to html with this script.
+
+オライリー から買った電子書籍を pandoc で epub ファイルを変換すると、めちゃくちゃ長い 1 つの HTML ファイルになる。
+この HTML ファイルにはアンカーリンクがないので、途中まで読んだ部分を記録するのがとても面倒だ。
+だから、 epub ファイルを HTML ファイルに変換したあとは、このスクリプトでアンカーリンクを付けることにした。
+
+
+## Getting started
+
 Add `<a href=#hello>...</a>` to html elements with `id=hello`.
 
 ```sh
@@ -33,9 +47,4 @@ $ ./add-id-links-to-html -i example.html
 $ ./add-id-links-to-html -i example.html -o output.html
 ```
 
-## Motivation
 
-When I convert .epub to .html with pandoc, I get a very long html document.
-After reading some sections in it, I want to suspend reading and remember which chapter to start reading tomorrow.
-However, the exported html doc does not have anchor links...
-Thus, I add them to html with the script.
