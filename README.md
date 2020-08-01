@@ -1,6 +1,8 @@
 # add-anchor-links-to-html
 
-![descrpiton](./description.png)
+<p align="center">
+  <img src=./description.png />
+</p>
 
 ## Motivation
 
