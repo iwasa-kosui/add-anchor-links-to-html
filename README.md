@@ -37,7 +37,7 @@ $ cat example.html
 ### outputs the result
 
 ```sh
-$ ./add-id-links-to-html -i example.html
+$ add-anchor-links-to-html -i example.html
 <html><head>
     
 </head>
@@ -52,7 +52,7 @@ $ ./add-id-links-to-html -i example.html
 ### saves to the file
 
 ```
-$ ./add-id-links-to-html -i example.html -o output.html
+$ add-anchor-links-to-html -i example.html -o output.html
 ```
 
 
