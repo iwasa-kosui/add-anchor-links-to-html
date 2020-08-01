@@ -1,4 +1,4 @@
-# add-id-links-to-html
+# add-anchor-links-to-html
 
 ![descrpiton](./description.png)
 
