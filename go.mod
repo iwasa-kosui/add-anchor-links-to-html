@@ -1,4 +1,4 @@
-module github.com/iwasa-kosui/add-id-links-to-html
+module github.com/iwasa-kosui/add-anchor-links-to-html
 
 go 1.13
 
