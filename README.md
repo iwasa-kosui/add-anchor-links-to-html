@@ -1,6 +1,6 @@
 # add-id-links-to-html
 
-![descrpiton](./desc.png)
+![descrpiton](./description.png)
 
 Add `<a href=#hello>...</a>` to html elements with `id=hello`.
 
